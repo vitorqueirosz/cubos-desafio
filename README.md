@@ -81,7 +81,7 @@
      }	
     
 #### Deletando uma regra de atendimento
-    // METODO POST
+    // METODO DELETE
     http://localhost:3333/appointment/specificDay
     
     OR
