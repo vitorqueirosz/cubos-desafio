@@ -62,7 +62,7 @@
     
 #### Criando regra semanal:
     // METODO POST
-    http://localhost:3333/appointment/daily
+    http://localhost:3333/appointment/weekly
 
 	 {
         "duration": ["12-04-2020", "13-04-2020"],
