@@ -8,7 +8,7 @@
 
 #### Criando regra de atendimento especifica:
         // METODO POST
-        // http://localhost:3333/appointment
+        http://localhost:3333/appointment
         {
         "day": "2020-04-06",
         "intervals": 
@@ -26,7 +26,7 @@
         
 #### Criando regra de atendimento diária:
     // METODO POST
-    // http://localhost:3333/appointment/daily
+    http://localhost:3333/appointment/daily
     
     {
         "duration": ["11-07-2020", "18-07-2020"],
@@ -62,7 +62,7 @@
     
 #### Criando regra semanal:
     // METODO POST
-    // http://localhost:3333/appointment/daily
+    http://localhost:3333/appointment/daily
 
 	 {
         "duration": ["12-04-2020", "13-04-2020"],
@@ -82,20 +82,20 @@
     
 #### Deletando uma regra de atendimento
     // METODO POST
-    // http://localhost:3333/appointment/specificDay
+    http://localhost:3333/appointment/specificDay
     
     OR
-    // http://localhost:3333/appointment/daily
-    // http://localhost:3333/appointment/weekly
+    http://localhost:3333/appointment/daily
+    http://localhost:3333/appointment/weekly
     
 ### Listando atendimentos por data
     // METODO GET
-    // http://localhost:3333/schedule
-    // request.query = date
+    http://localhost:3333/schedule
+    request.query = date
 
 ### Listando todos os atendimentos registrados
     // METODO GET
-    // http://localhost:3333/appointments
+    http://localhost:3333/appointments
     
 
     
