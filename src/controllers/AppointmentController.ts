@@ -97,6 +97,7 @@ class AppointmentController {
         //
         // request.body
         // {
+        //     "duration": ["11-07-2020", "18-07-2020"],
         //     "daily": [
         //         {
         //             "segunda": {
