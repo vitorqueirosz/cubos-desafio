@@ -10,7 +10,7 @@
         // METODO POST
         http://localhost:3333/appointment
         {
-        "day": "2020-04-06",
+        "day": "2020-04-06", //data sera formatada no retorno
         "intervals": 
             [
                 {
