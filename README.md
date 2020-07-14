@@ -101,15 +101,31 @@
     
 ### :rocket: Technologies
 
-#### This project was developed with the following technologies:
+This project was developed with the following technologies:
 
 - [TypeScript](https://github.com/Microsoft/TypeScript)
 - [Express](https://github.com/expressjs/express)
 - [Eslint](https://github.com/eslint/eslint)
+- Prettier(https://github.com/prettier/prettier)
+- EditorConfig(https://editorconfig.org)
 
 ### :hammer: Tools
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Insomnia](https://insomnia.rest)
+
+### 👷 Installation
+You need to install Node.js and Yarn first, then in order to clone the project via HTTPS, run this command:
+
+    git clone https://github.com/vitorqueirosz/cubos-desafio.git
+
+### Install dependencies
+
+    yarn install
+
+### 🏃 Getting Started
+Run the following command in order to start the application in a development environment:
+
+    yarn dev
 </br>
 
 
