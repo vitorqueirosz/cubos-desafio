@@ -9,19 +9,19 @@
 #### Criando regra de atendimento especifica:
         // METODO POST
         http://localhost:3333/appointment
+        
         {
-        "day": "2020-04-06", //data sera formatada no retorno
-        "intervals": 
-            [
-                {
-                    "start": "11:10",
-                    "end": "12:00"
-                },
+            "day": "2020-04-06", //data sera formatada no retorno
+            "intervals": [
+            {
+                "start": "11:10",
+                "end": "12:00"
+             },
             {
                 "start": "08:00",
                 "end": "09:05"
             }
-            ]
+          ]
         }
         
 #### Criando regra de atendimento diária:
