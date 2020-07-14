@@ -4,7 +4,7 @@
  
 </br>
 
-## Exemplos de Requisições:
+## 📌 Exemplos de Requisições:
 
 #### Criando regra de atendimento especifica:
         // METODO POST
