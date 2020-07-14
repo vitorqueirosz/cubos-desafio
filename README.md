@@ -80,7 +80,7 @@
         ]
      }	
     
-#### Deletando uma regra de atendimento
+#### Deletando uma regra de atendimento:
     // METODO DELETE
     http://localhost:3333/appointment/specificDay
     
@@ -88,12 +88,12 @@
     http://localhost:3333/appointment/daily
     http://localhost:3333/appointment/weekly
     
-### Listando atendimentos por data
+#### Listando atendimentos por data:
     // METODO GET
     http://localhost:3333/schedule
     request.query = date
 
-### Listando todos os atendimentos registrados
+#### Listando todos os atendimentos registrados:
     // METODO GET
     http://localhost:3333/appointments
     
